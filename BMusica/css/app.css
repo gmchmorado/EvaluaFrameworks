@@ -22,3 +22,17 @@
 #icono-tw {
   color: cyan;
 }
+
+#seleccion {
+  background-color: #A75D67;
+}
+
+.btn-personal {
+  background-color: #A79B82 !important;
+  border-color: #A79B82 !important;
+}
+
+.btn-primary:hover {
+  background-color: #716A4D !important;
+  border-color: #A79B82 !important;
+}
