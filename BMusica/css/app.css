@@ -1,6 +1,8 @@
 /* Estilos personalizados para Blog de Música */
 #encabezado {
-  background-color: #B5BAB6;
+  background-image: url('../img/dark-music-wallpaper.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #icono-yt {
@@ -35,4 +37,13 @@
 .btn-primary:hover {
   background-color: #716A4D !important;
   border-color: #A79B82 !important;
+}
+
+.busqueda {
+  background-color: Gainsboro;
+}
+
+.botonbusqueda {
+  background-color: #FF6F61;
+  color: #4A4843;
 }

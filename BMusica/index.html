@@ -14,15 +14,6 @@
     <title>Blog de Música</title>
   </head>
   <body>
-    <!-- Posible sección para cubierta inicial
-    <section id="cubierta">
-      <div id="cubierta">
-        <div class="container">
-
-        </div>
-      </div>
-    </section> -->
-    <!-- Barra principal -->
     <section class="container" id="encabezado">
       <nav class="navbar" id="principal">
         <div class="row">
@@ -45,7 +36,7 @@
     </section>
     <!-- Botones de selección -->
     <section class="container">
-      <div class="row" id="seleccion">
+      <div class="row py-3" id="seleccion">
         <div class="col-sm-12 col-md-2 col-lg-2">
           <button type="button" class="btn btn-primary btn-block btn-personal">Inicio</button>
         </div>
@@ -56,7 +47,7 @@
           <button type="button" class="btn btn-primary btn-block btn-personal">Grupos</button>
         </div>
         <div class="col-sm-12 col-md-2 col-lg-2">
-          <button type="button" class="btn btn-primary btn-block btn-personal">Top 10</button>
+          <button type="button" class="btn btn-primary btn-block btn-personal">Regional</button>
         </div>
         <div class="col-sm-12 col-md-2 col-lg-2">
           <button type="button" class="btn btn-primary btn-block btn-personal">Letras</button>
@@ -86,8 +77,8 @@
             </div>
             <div class="col-sm-9 col-md-10 col-lg-10">
               <div class="form-group">
-                <label for="areatexto"></label>
-                <textarea class="form-control" id="areatexto" rows="3" placeholder="Comentarios"></textarea>
+                <label for="areatexto1"></label>
+                <textarea class="form-control" id="areatexto1" rows="3" placeholder="Comentarios"></textarea>
               </div>
             </div>
           </div>
@@ -105,19 +96,41 @@
             </div>
             <div class="col-sm-9 col-md-10 col-lg-10">
               <div class="form-group">
-                <label for="areatexto"></label>
-                <textarea class="form-control" id="areatexto" rows="3" placeholder="Comentarios"></textarea>
+                <label for="areatexto2"></label>
+                <textarea class="form-control" id="areatext2o" rows="3" placeholder="Comentarios"></textarea>
               </div>
             </div>
           </div>
         </div>
         <!-- Área de busqueda -->
-        <div class="col-md-3 col-lg-3">
-
+        <div class="col-lg-3 col-md-3 d-sm-none d-md-block">
+          <form>
+            <div class="form-row align-items-center busqueda mt-4 mb-2 pt-2">
+              <div class="col">
+                <div class="input-group">
+                  <div class="input-group-text">
+                    <i class="fas fa-search"></i>
+                  </div>
+                  <input type="text" class="form-control" id="areabusqueda">
+                  <div class="w-100"></div>
+                  <label for="areabusqueda">Buscar</label>
+                </div>
+              </div>
+            </div>
+          </form>
+          <!-- Opciones de busqueda -->
+          <div class="row">
+            <div class="list-group">
+              <button type="button" class="list-group-item list-group-item-action my-2 rounded-pill botonbusqueda">Interpretaciones del artista</button>
+              <button type="button" class="list-group-item list-group-item-action my-2 rounded-pill botonbusqueda">Coposiciones del artista</button>
+              <button type="button" class="list-group-item list-group-item-action my-2 rounded-pill botonbusqueda">Colaboraciones del artista</button>
+              <button type="button" class="list-group-item list-group-item-action my-2 rounded-pill botonbusqueda">Otros artistas contemporaneos</button>
+              <button type="button" class="list-group-item list-group-item-action my-2 rounded-pill botonbusqueda">Discografia del artista</button>
+            </div>
+          </div>
         </div>
       </div>
     </section>
-
     <!-- liga para los script de JS requeridos por bootstrap -->
     <script src="js/bootstrap.js"></script>
   </body>
