@@ -1,6 +1,7 @@
 /* Estilos personalizados para Blog de Gastronomía */
 body {
   background-image: url('../img/image.jpg');
+  background-color: grey;
   background-position: top;
   background-attachment: fixed;
   background-repeat: no-repeat;
