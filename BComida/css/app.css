@@ -1,0 +1,27 @@
+/* Estilos personalizados para Blog de Gastronomía */
+body {
+  background-image: url('../img/image.jpg');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#fondo {
+  background-color: #00656B;
+}
+
+.titulo {
+  color: #FF6F61;
+}
+
+.sinfondo {
+  background-color: transparent;
+}
+
+.efecto1 {
+  opacity: 0.95;
+}
+
+.efecto2 {
+  opacity: 1;
+}
