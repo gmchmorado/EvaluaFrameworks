@@ -2,8 +2,8 @@
 body {
   background-image: url('../img/image.jpg');
   background-position: top;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-repeat: repeat;
+  background-size: contain;
 }
 
 #fondo {
@@ -21,7 +21,8 @@ body {
 .efecto1 {
   opacity: 0.95;
 }
-
+/*
 .efecto2 {
   opacity: 1;
 }
+*/
